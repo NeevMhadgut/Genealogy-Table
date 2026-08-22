@@ -1,0 +1,11 @@
+[package]
+name = "genealogy_table_tauri"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Tauri
+tauri = { version = "1.4.4", features = ["api-all"] }
+
+[build-dependencies]
+
